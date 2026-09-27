@@ -9,15 +9,18 @@ const playersdata = {
     },
     Yamal: {
         name: "Lamine Yamal",
-        stats: "8 matches, 8 goals, 6 assists"
+        stats: "8 matches, 8 goals, 6 assists",
+        video: "https://www.youtube.com/embed/LMu9x6HsSQc?si=yLF2J9a4hxE7lNR0",
     },
     Gordon: {
         name: "Anthony Gordon",
-        stats: "7 matches, 0 goals, 4 assists"
+        stats: "7 matches, 0 goals, 4 assists",
+        video: "https://www.youtube.com/embed/0LugT1Mnm1Y?si=7pQW0S7NcrqoDGYK",
     },
     Adeyemi: {
         name: "Karim Adeyemi",
-        stats: "8 matches, 3 goals, 2 assists"
+        stats: "8 matches, 3 goals, 2 assists",
+        video: "https://www.youtube.com/embed/HbeDQwIcIHE?si=KLw2RbGfrblrrnoX",
     }
 };
 
