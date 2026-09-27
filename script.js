@@ -4,7 +4,8 @@ console.log("Visca el Barça! Visca Catalunya!");
 const playersdata = {
     Raphinha: {
         name: "Raphinha",
-        stats: "8 matches, 14 goals, 3 assists"
+        stats: "8 matches, 14 goals, 3 assists",
+        video: "https://www.youtube.com/embed/y-fzFcFqOvs?si=MXaDZO3aq0pGAkSF",
     },
     Yamal: {
         name: "Lamine Yamal",
@@ -24,6 +25,7 @@ const modal = document.getElementById("playermodal");
 const modalname = document.getElementById("modalname");
 const modalstats = document.getElementById("modalstats");
 const closeModal = document.getElementById("closeModal");
+const modalvideo = document.getElementById("modalvideo");
 
 const cards = document.querySelectorAll(".player-card");
 
@@ -37,6 +39,12 @@ cards.forEach(function(card) {
         modalname.textContent = player.name;
         modalstats.textContent = player.stats;
 
+        if (player.video) {
+            modalvideo.src = player.video;
+        } else {
+            modalvideo.src = "";
+        }
+
         modal.style.display = "flex";
        }
     };
@@ -44,4 +52,5 @@ cards.forEach(function(card) {
 
 closeModal.onclick = function() {
    modal.style.display = "none";
+   modalvideo.src = "";
 }
