@@ -71,7 +71,7 @@ header {
   justify-content: space-between;
 }
 
-.player-card :hover {
+.player-card:hover {
   transform: translateY(-10px);
   scale: 1.08;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
