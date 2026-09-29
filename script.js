@@ -64,12 +64,19 @@ const playersdata = {
     },
     Szczesny: {
         name: "Szczesny",
-        stats: "0 matches",
+        stats: "1 match",
         video: "https://www.youtube.com/embed/XzdYYpDGWsk?si=eVpGRlv3iaQwdkj5",
     },
     Garcia: {
-        name: ""
-    }
+        name: "Joan Garcia",
+        stats: "7 matches, 6 conceded goals",
+        video: "https://www.youtube.com/embed/7_rZA9SZbqg?si=MhPVr7IyQ3xXJCfM",
+    },
+    Livakovic: {
+        name: "Livakovic",
+        stats: "1 match",
+        video: "https://www.youtube.com/embed/sWnqNiJAgvg?si=ZHBHbnzSQfqt6SsX",
+    },
 };
 
 const modal = document.getElementById("playermodal");
