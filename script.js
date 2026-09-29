@@ -68,7 +68,7 @@ const playersdata = {
         video: "https://www.youtube.com/embed/XzdYYpDGWsk?si=eVpGRlv3iaQwdkj5",
     },
     Garcia: {
-        name: "Joan Garcia",
+        name: "Joan",
         stats: "7 matches, 6 conceded goals",
         video: "https://www.youtube.com/embed/7_rZA9SZbqg?si=MhPVr7IyQ3xXJCfM",
     },
