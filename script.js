@@ -21,6 +21,54 @@ const playersdata = {
         name: "Karim Adeyemi",
         stats: "8 matches, 3 goals, 2 assists",
         video: "https://www.youtube.com/embed/HbeDQwIcIHE?si=KLw2RbGfrblrrnoX",
+    },
+    Pedri: {
+        name: "Pedri",
+        stats: "9 matches, 1 goal, 2 assists",
+        video: "https://www.youtube.com/embed/4eTcA7LeCyg?si=YL_ginJsWCZ9D0ga",
+    },
+    Rodri: {
+        name: "Rodri",
+        stats: "8 matches, 0 goals, 0 assists",
+        video: "https://www.youtube.com/embed/t2NZS4qeLC8?si=I0Dog5K1Mhu7Ainh",
+    },
+    Olmo: {
+        name: "Olmo",
+        stats: "9 matches, 0 goals, 4 assists",
+        video: "https://www.youtube.com/embed/oegtrbMA5KY?si=2qXVabtNcHa-9uul",
+    },
+    Fermin: {
+        name: "Fermin",
+        stats: "7 matches, 4 goals, 2 assists",
+        video: "https://www.youtube.com/embed/lkeGfF23srI?si=iFlPfPhLzLfpNGKc",
+    },
+    Cubarsi: {
+        name: "Cubarsi",
+        stats: "6 matches",
+        video: "https://www.youtube.com/embed/eV6NzWqZF3I?si=3heqiiCO5pDjdnYq",
+    },
+    Espart: {
+        name: "Espart",
+        stats: "5 matches, 1 goal",
+        video: "https://www.youtube.com/embed/hpSN0bpXYZc?si=ogsej9TcNN7Y-CZT",
+    },
+    Eric: {
+        name: "Eric",
+        stats: "7 matches",
+        video: "https://www.youtube.com/embed/hXuDMN7nTYQ?si=KEz-xX0-ilXK5DoG",
+    },
+    Kounde: {
+        name: "Kounde",
+        stats: "7 matches",
+        video: "https://www.youtube.com/embed/mfvYCrOgpYM?si=Np4VV1MhGiX8XQFr",
+    },
+    Szczesny: {
+        name: "Szczesny",
+        stats: "0 matches",
+        video: "https://www.youtube.com/embed/XzdYYpDGWsk?si=eVpGRlv3iaQwdkj5",
+    },
+    Garcia: {
+        name: ""
     }
 };
 
