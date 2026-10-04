@@ -84,8 +84,22 @@ const modalname = document.getElementById("modalname");
 const modalstats = document.getElementById("modalstats");
 const closeModal = document.getElementById("closeModal");
 const modalvideo = document.getElementById("modalvideo");
+const searchInput = document.getElementById("searchInput");
 
 const cards = document.querySelectorAll(".player-card");
+
+searchInput.addEventListener("input", function() {
+    const searchTerm = searchInput.value.toLowerCase();
+
+    cards.forEach(function(card) {
+        const playerName = card.dataset.player.toLowerCase();
+        if (playerName.includes(searchTerm)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+});
 
 cards.forEach(function(card) {
     card.onclick = function () {
