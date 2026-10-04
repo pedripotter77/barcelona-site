@@ -5,11 +5,13 @@ const playersdata = {
     Raphinha: {
         name: "Raphinha",
         stats: "8 matches, 14 goals, 3 assists",
+        flag: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png?utm_source=ru.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
         video: "https://www.youtube.com/embed/y-fzFcFqOvs?si=MXaDZO3aq0pGAkSF",
     },
     Yamal: {
         name: "Lamine Yamal",
         stats: "8 matches, 8 goals, 6 assists",
+        flag: "https://cdn.britannica.com/36/4336-050-056AC114/Flag-Spain.jpg",
         video: "https://www.youtube.com/embed/LMu9x6HsSQc?si=yLF2J9a4hxE7lNR0",
     },
     Gordon: {
@@ -85,6 +87,7 @@ const modalstats = document.getElementById("modalstats");
 const closeModal = document.getElementById("closeModal");
 const modalvideo = document.getElementById("modalvideo");
 const searchInput = document.getElementById("searchInput");
+const nodalflag = document.getElementById("modalflag");
 
 const cards = document.querySelectorAll(".player-card");
 
@@ -110,6 +113,14 @@ cards.forEach(function(card) {
        if (player) {
         modalname.textContent = player.name;
         modalstats.textContent = player.stats;
+
+        if(player.flag) {
+            modalflag.src = player.flag;
+            modalflag.style.display = "inline-block";
+        } else {
+            modalflag.src = "";
+            modalflag.style.display = "none";
+        }
 
         if (player.video) {
             modalvideo.src = player.video;

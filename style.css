@@ -120,3 +120,8 @@ header {
   border: none;
   display: block;
 }
+
+.modalflag {
+  margin-top: 19px;
+  margin-right: 100px;
+}
