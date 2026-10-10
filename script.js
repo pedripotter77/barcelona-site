@@ -87,7 +87,8 @@ const modalstats = document.getElementById("modalstats");
 const closeModal = document.getElementById("closeModal");
 const modalvideo = document.getElementById("modalvideo");
 const searchInput = document.getElementById("searchInput");
-const nodalflag = document.getElementById("modalflag");
+const modalflag = document.getElementById("modalflag");
+const sortOptions = document.getElementById("sortoptions");
 
 const cards = document.querySelectorAll(".player-card");
 
@@ -102,6 +103,10 @@ searchInput.addEventListener("input", function() {
             card.style.display = "none";
         }
     });
+});
+
+sortOptions.addEventListener("change", function() {
+    const selectedOption = sortOptions.value;
 });
 
 cards.forEach(function(card) {
