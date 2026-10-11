@@ -125,3 +125,28 @@ header {
   margin-top: 19px;
   margin-right: 100px;
 }
+
+@media (max-width: 768px) {
+  .players-grid {
+    justify-content: center;
+  }
+
+  .player-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .modal-content {
+    width: 95%;
+    padding: 20px;
+  }
+
+  #modalvideo {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
