@@ -105,10 +105,6 @@ searchInput.addEventListener("input", function() {
     });
 });
 
-sortOptions.addEventListener("change", function() {
-    const selectedOption = sortOptions.value;
-});
-
 cards.forEach(function(card) {
     card.onclick = function () {
        let playerId = card.dataset.player;
